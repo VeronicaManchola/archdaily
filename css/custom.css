@@ -1,0 +1,105 @@
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+
+ul.navbar-nav ul.projects-list li::marker {
+    content: "-";
+}
+
+.btn-primary {
+    background: #026CB6;
+}
+
+.btn-primary:hover {
+    background: #5E95C7;
+    border-color: #5E95C7;
+}
+
+.main-section {
+    margin-top: 12vh;
+}
+
+.carousel-item.fixed-h {
+    height: 380px;
+}
+
+ul.indicators {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+ul.indicators li {
+    opacity: .5;
+}
+
+ul.indicators .active {
+    opacity: 1;
+}
+
+.indicator.fixed-h {
+    height: 123px;
+}
+
+.carousel-item.fixed-h, .indicator.fixed-h {
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item.fixed-h:nth-of-type(1), ul.indicators li:nth-child(1) .indicator.fixed-h {
+    background-image: url("../assets/imgs/2_18Robinson_KPF_(c)TimGriffith.jpg");
+}
+
+.carousel-item.fixed-h:nth-of-type(2), ul.indicators li:nth-child(2) .indicator.fixed-h {
+    background-image: url("../assets/imgs/Casa-Eterea-19.jpg");
+}
+
+ul.indicators li:nth-child(2) .indicator.fixed-h {
+    margin: 5px 0;
+}
+
+.carousel-item.fixed-h:nth-of-type(3), ul.indicators li:nth-child(3) .indicator.fixed-h {
+    background-image: url("../assets/imgs/Elements_House-_G_A_Evripiotis_Yerolymbos_2.jpg");
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.main-search {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.main-search li {
+    font-size: 21px;
+    font-weight: 600;
+    padding: 0 24px;
+    border-right: 1px solid #D8D8D8;
+}
+
+.main-search li:last-of-type {
+    border-right: none;
+}
+
+.main-search li a {
+    color: #424242;
+    text-decoration: none;
+}
+
+.main-search li a:hover {
+    color: #026CB6;
+}
+
+.search-icon {
+    height: 16px;
+}
+
+.form-control {
+    background-color: #e9ecef;
+    color: #767676;
+}
